@@ -1,22 +1,9 @@
 [project]
-name = "solid-design-patterns"
+name = "curso-platzi-patrones-solid"
 version = "0.1.0"
-description = "Curso de Principios SOLID y Patrones de Diseño en Python"
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
-    "pydantic>=2.9.2",
-    "python-dotenv>=1.0.1",
-    "stripe>=10.12.0",
-]
-
-[dependency-groups]
-dev = [
-    "pytest>=8.3.3",
-    "ruff>=0.6.8",
-]
-
-[tool.uv.workspace]
-members = [
-    "sync",
+    "pydantic>=2.13.3",
 ]
